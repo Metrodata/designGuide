@@ -276,14 +276,22 @@
                                 
                                 <h1 id="&#x8109;&#x7B56;&#x6570;&#x636E;vi&#x89C4;&#x8303;">&#x8109;&#x7B56;&#x6570;&#x636E;VI&#x89C4;&#x8303;</h1>
 <hr>
-<h3 id="logo">Logo</h3>
-<p>&#x516C;&#x53F8;&#x5168;&#x79F0; Logo:</p>
+<h3 id="&#x516C;&#x53F8;">&#x516C;&#x53F8;</h3>
+<h5 id="&#x516C;&#x53F8;&#x5168;&#x79F0;-logo">&#x516C;&#x53F8;&#x5168;&#x79F0; Logo:</h5>
 <div class="box longbox">
-    <img id="fullLogo" src="../img/fullLogo.png">
+    <img class="longLogo" src="../img/fullLogo.png">
 </div>  
-<br>
 
-&#x516C;&#x53F8;&#x7B80;&#x79F0; Logo:
+<h5 id="&#x516C;&#x53F8;&#x7B80;&#x79F0;-logo">&#x516C;&#x53F8;&#x7B80;&#x79F0; Logo:</h5>
+<div class="container">
+    <div class="box shortbox greenInverse">
+        <img class="shortLogo" src="../img/shortWhite.png">
+    </div>  
+    <div class="box shortbox redInverse">
+        <img class="shortLogo" src="../img/cityGroupWhite.png">
+    </div>  
+</div> 
+
 <div class="container">
     <div class="box shortbox">
         <img class="shortLogo" src="../img/shortLogo.png">
@@ -293,55 +301,112 @@
     </div>  
 </div>
 
+
+<h6 id="&#x516C;&#x53F8;-logo-&#x8272;&#x5F69;&#xFF1A;">&#x516C;&#x53F8; Logo &#x8272;&#x5F69;&#xFF1A;</h6>
 <div class="container">
-    <div class="box shortbox" id="greenInverse">
-        <img class="shortLogo" src="../img/shortWhite.png">
+    <div class="colorCard greenInverse">
+        <p>&#x7EFF;&#x8272;</p>
+        <div class="colorCardFooter">
+            <p>#307A74 <br> RGB 48,122,116</p>
+        </div>
+    </div>
+    <div class="colorCard redInverse">
+        <p>&#x7EA2;&#x8272;</p>
+        <div class="colorCardFooter">
+            <p>#D93526 <br> RGB 217,53,38</p>
+        </div>
+    </div>
+    <div class="colorCard"></div>
+    <div class="colorCard"></div>
+    <div class="colorCard"></div>
+</div>    
+
+<h3 id="&#x4EA7;&#x54C1;">&#x4EA7;&#x54C1;</h3>
+<h5 id="&#x4EA7;&#x54C1;datamap-logo">&#x4EA7;&#x54C1;Datamap Logo:</h5>
+<div class="box longbox blueInverse">
+    <img class="longLogo" src="../img/dataMap.png">
+</div>  
+
+<div class="box longbox">
+    <img class="longLogo" src="../img/dataMapBlue.png">
+</div>
+
+<h5 id="&#x4EA7;&#x54C1;datamap-logo-&#x52A0;&#x6C49;&#x5B57;">&#x4EA7;&#x54C1;Datamap Logo (&#x52A0;&#x6C49;&#x5B57;):</h5>
+<div class="container">
+    <div class="box shortbox blueInverse">
+        <img class="shortLogo" src="../img/dataMapHZ.png">
     </div>  
-    <div class="box shortbox" id="redInverse">
-        <img class="shortLogo" src="../img/cityGroupWhite.png">
+    <div class="box shortbox">
+        <img class="shortLogo" src="../img/dataMapHZBlue.png">
     </div>  
 </div>
 
-<p><br>
-&#x4EA7;&#x54C1; Logo:</p>
+<h5 id="&#x4EA7;&#x54C1;&#x9996;&#x9875;">&#x4EA7;&#x54C1;&#x9996;&#x9875;:</h5>
 <style>
-.box{
-    transition: .5s;
-    border: 1px solid #E6E6E6;
+*{
+    box-sizing: border-box;
     border-radius: 2px;
+}
+.box{
+    border: 1px solid #E6E6E6;
     text-align: center;
     padding:40px;
+    width: 100%;
 }
 .container{
     padding: 6px 0;
-    text-align: center;
+    display: flex;
+    text-align:justify;
+    justify-content:space-between;
+    width: 100%;
+    position: relative;
 }
-.box:hover{
-    transition: .5s;
-    border: 1px solid #307A74;
-}
+
 .shortbox{
-    display:inline-block;
     margin: 2.5px;
     width: 49%;
 }
+.longbox{
+    margin: 0 0 10px 0;
+}
 
-#greenInverse{
+.greenInverse{
     background-color:#307A74;
 }
-#redInverse{
+.redInverse{
     background-color:#D93526;
 }
-
-#fullLogo{
-    border: none;
-    width: 500px;
+.blueInverse{
+    background-color:#3E96D2;
 }
+
+
 .shortLogo{
     border: none;
     width: 200px;
 }
+.longLogo{
+    border: none;
+    width: auto;
+    height:56px;
+}
 
+.colorCard{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: white;
+    justify-content:space-between;
+    width: 19%;
+    height: 200px;
+    padding: 20px 18px;
+}
+
+.colorCardFooter{
+    opacity: 0.7;
+    bottom: 15px;
+    position: absolute;
+}
 
 </style>
                                 
@@ -382,7 +447,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"VI规范","level":"1.2","depth":1,"next":{"title":"界面设计规范","level":"1.3","depth":1,"ref":"","articles":[{"title":"字体规范","level":"1.3.1","depth":2,"path":"book/font.md","ref":"./book/font.md","articles":[]},{"title":"色彩规范","level":"1.3.2","depth":2,"path":"book/color.md","ref":"./book/color.md","articles":[]},{"title":"排版规范","level":"1.3.3","depth":2,"path":"book/layout.md","ref":"./book/layout.md","articles":[]},{"title":"模块","level":"1.3.4","depth":2,"path":"book/module.md","ref":"./book/module.md","articles":[{"title":"地图模块","level":"1.3.4.1","depth":3,"path":"book/map.md","ref":"./book/map.md","articles":[]}]},{"title":"组件","level":"1.3.5","depth":2,"path":"book/components.md","ref":"./book/components.md","articles":[]}]},"previous":{"title":"简介","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"book/VI.md","mtime":"2017-09-01T06:22:15.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-01T05:06:09.378Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"VI规范","level":"1.2","depth":1,"next":{"title":"界面设计规范","level":"1.3","depth":1,"ref":"","articles":[{"title":"字体规范","level":"1.3.1","depth":2,"path":"book/font.md","ref":"./book/font.md","articles":[]},{"title":"色彩规范","level":"1.3.2","depth":2,"path":"book/color.md","ref":"./book/color.md","articles":[]},{"title":"排版规范","level":"1.3.3","depth":2,"path":"book/layout.md","ref":"./book/layout.md","articles":[]},{"title":"模块","level":"1.3.4","depth":2,"path":"book/module.md","ref":"./book/module.md","articles":[{"title":"地图模块","level":"1.3.4.1","depth":3,"path":"book/map.md","ref":"./book/map.md","articles":[]}]},{"title":"组件","level":"1.3.5","depth":2,"path":"book/components.md","ref":"./book/components.md","articles":[]}]},"previous":{"title":"简介","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"book/VI.md","mtime":"2017-09-01T08:23:21.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-01T05:06:09.378Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
