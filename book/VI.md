@@ -50,24 +50,45 @@
 
 #####产品Datamap Logo:
 <div class="box longbox blueInverse">
-	<img class="longLogo" src="../img/dataMap.png">
+	<img class="longLogo" src="../img/dataMapHZ.png">
 </div>  
 
 <div class="box longbox">
-	<img class="longLogo" src="../img/dataMapBlue.png">
+	<img class="longLogo" src="../img/dataMapHZBlue.png">
 </div>
 
-#####产品Datamap Logo (加汉字):
+#####产品Datamap Logo (无汉字):
 <div class="container">
 	<div class="box shortbox blueInverse">
-		<img class="shortLogo" src="../img/dataMapHZ.png">
+		<img class="shortLogo" src="../img/dataMap.png">
 	</div>  
 	<div class="box shortbox">
-		<img class="shortLogo" src="../img/dataMapHZBlue.png">
+		<img class="shortLogo" src="../img/dataMapBlue.png">
 	</div>  
 </div>
 
 #####产品首页:
+<div class="box longbox imgBg">
+	<img class="longLogo" src="../img/datamapTrans.png">
+</div>	
+
+######产品背景图:
+<div class="container">
+	<div class="box shortbox bgBox">
+		<p>模糊后（产品中使用）</p>
+		<img class="bg" src="../img/bgBlur.png">
+	</div>
+	<div class="box shortbox bgBox">
+		<p>原图</p>
+		<img class="bg" src="../img/bg.png">
+	</div> 	
+</div>
+
+
+
+
+
+
 
 
 
@@ -136,5 +157,23 @@
 	bottom: 15px;
 	position: absolute;
 }
+.imgBg{
+	padding:60px 0 40px 0 ;
+	background-image: url(../img/bgBlur.png); 
+	background-size: cover;
+}
 
+.bgBox{
+	padding: 0;
+	border:none;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	color: #4C4C4C;
+	text-align: left;
+}
+.bg{
+	width:auto;
+	height:auto;
+}
 </style>
