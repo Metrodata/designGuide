@@ -84,9 +84,11 @@
 	</div> 	
 </div>
 
+---
 
-
-
+资源下载：
+[Sketch文件](../asset/Logo.sketch),
+[AI文件](../asset/logo.ai)
 
 
 
