@@ -87,8 +87,7 @@
 ---
 
 资源下载：
-[Sketch文件](../asset/Logo.sketch),
-[AI文件](../asset/logo.ai)
+[Github](https://github.com/Metrodata/designGuide/tree/master/asset)
 
 
 
