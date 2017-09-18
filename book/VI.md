@@ -158,6 +158,7 @@
 	bottom: 15px;
 	position: absolute;
 }
+
 .imgBg{
 	padding:60px 0 40px 0 ;
 	background-image: url(../img/bgBlur.png); 
@@ -170,8 +171,6 @@
 	font-family: sans-serif;
 	font-size: 12px;
 	font-weight: 600;
-	color: #4C4C4C;
-	text-align: left;
 }
 .bg{
 	width:auto;
