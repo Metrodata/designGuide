@@ -87,7 +87,7 @@
 ---
 
 资源下载：
-[Github](https://github.com/Metrodata/designGuide/tree/master/asset)
+[GitLab](https://gitlab.com/Metrodata/DesignFile/tree/master/Guides)
 
 
 

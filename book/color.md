@@ -8,7 +8,7 @@
 		<div class="card standardBlue">
 			<p>标准蓝</p>
 			<div class="colorCardFooter">
-				<p>#429AFF <br> RGB 208,74,100</p>
+				<p>#429AFF <br> RGB 66,154,255</p>
 			</div>
 		</div>
 		<div class = "cardPara">
@@ -133,6 +133,38 @@
 
 ###数据可视化色彩
 
+#####数据图表
+
+柱状图
+
+<img class="chartImg" src="../img/barChart1.png" alt="">
+<img class="chartImg" src="../img/barChart2.png" alt="">
+
+
+柱状图颜色根据设计情景而定，默认为标准蓝色。
+图表避免使用过于鲜艳，饱和度过高的颜色。  
+可参考: [Material Color](https://material.io/guidelines/style/color.html#color-color-palette)
+
+
+<div>
+	<img class="chartImg" src="../img/barChartWrong.png" alt="">
+	<img class="chartImg" src="../img/barChartRight2.png" alt="">
+	<img class="chartImg" src="../img/barChartRight.png" alt="">
+	<p style="color:red">*同一类数据使用同一种颜色，不同类型／来源数据使用不同颜色</p>
+</div>
+
+<br>
+
+<!-- 饼图
+
+方块图 -->
+
+<!-- 明细列表 -->
+
+
+
+
+
 #####色阶：双向色阶
 
 <div class="colorScale">
@@ -217,6 +249,7 @@
 
 #####单向色阶
 
+红
 
 <div class="colorScale">
 	<div style="background-color: #E4434E;"></div>
@@ -298,6 +331,7 @@
 	<div >#FFFFDD</div>
 </div>
 
+蓝
 
 <div class="colorScale">
 	<div style="background-color: #3B66E9;"></div>
@@ -550,6 +584,11 @@
 	font-weight: 600;
 	color:#5C5C5C;
 	text-align: center;
+}
+
+.chartImg{
+	margin: 5px;
+	width: 45%;
 }
 </style>
 
