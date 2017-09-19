@@ -131,7 +131,256 @@
 ```
 
 
-###可视化
+###数据可视化色彩
+
+#####色阶：双向色阶
+
+<div class="colorScale">
+	<div style="background-color: #3B66E9;"></div>
+	<div style="background-color: #9296E9;"></div>
+	<div style="background-color: #CCC9E4;"></div>
+	<div style="background-color: #FFFFDD;"></div>
+	<div style="background-color: #FFC1A2;"></div>
+	<div style="background-color: #FF806D;"></div>
+	<div style="background-color: #E4434E;"></div>
+</div>
+
+<div class="colorScale">
+	<div >#3B66E9</div>
+	<div >#9296E9</div>
+	<div >#CCC9E4</div>
+	<div >#FFFFDD</div>
+	<div >#FFC1A2</div>
+	<div >#FF806D</div>
+	<div >#E4434E</div>
+</div>
+
+<div class="colorScale">
+	<div style="background-color: #3B66E9;"></div>
+	<div style="background-color: #9F9FE7;"></div>
+	<div style="background-color: #E0D7ED;"></div>
+	<div style="background-color: #FFDCBE;"></div>
+	<div style="background-color: #F79584;"></div>
+	<div style="background-color: #E4434E;"></div>
+</div>
+
+<div class="colorScale">
+	<div >#3B66E9</div>
+	<div >#9F9FE7</div>
+	<div >#E0D7ED</div>
+	<div >#FFDCBE</div>
+	<div >#F79584</div>
+	<div >#E4434E</div>
+</div>
+
+<div class="colorScale">
+	<div style="background-color: #3B66E9;"></div>
+	<div style="background-color: #B1AFE6;"></div>
+	<div style="background-color: #FFFFDD;"></div>
+	<div style="background-color: #FAA792;"></div>
+	<div style="background-color: #E4434E;"></div>
+</div>
+
+<div class="colorScale">
+	<div >#3B66E9</div>
+	<div >#B1AFE6</div>
+	<div >#FFFFDD</div>
+	<div >#FAA792</div>
+	<div >#E4434E</div>
+</div>
+
+<div class="colorScale">
+	<div style="background-color: #3B66E9;"></div>
+	<div style="background-color: #CDC9E3;"></div>
+	<div style="background-color: #FEC5AA;"></div>
+	<div style="background-color: #E4434E;"></div>
+</div>
+
+<div class="colorScale">
+	<div >#3B66E9</div>
+	<div >#CDC9E3</div>
+	<div >#FEC5AA</div>
+	<div >#E4434E</div>
+</div>
+
+<div class="colorScale">
+	<div style="background-color: #3B66E9;"></div>
+	<div style="background-color: #FFFFDD;"></div>
+	<div style="background-color: #E4434E;"></div>
+</div>
+
+<div class="colorScale">
+	<div >#3B66E9</div>
+	<div >#FFFFDD</div>
+	<div >#E4434E</div>
+</div>
+
+#####单向色阶
+
+
+<div class="colorScale">
+	<div style="background-color: #E4434E;"></div>
+	<div style="background-color: #ED6864;"></div>
+	<div style="background-color: #F5887A;"></div>
+	<div style="background-color: #FAA792;"></div>
+	<div style="background-color: #FEC5AA;"></div>
+	<div style="background-color: #FFE2C4;"></div>
+	<div style="background-color: #FFFFDD;"></div>
+</div>
+
+<div class="colorScale">
+	<div >#E4434E</div>
+	<div >#ED6864</div>
+	<div >#F5887A</div>
+	<div >#FAA792</div>
+	<div >#FEC5AA</div>
+	<div >#FFE2C4</div>
+	<div >#FFFFDD</div>
+</div>
+
+<div class="colorScale">
+	<div style="background-color: #E4434E;"></div>
+	<div style="background-color: #EF6E68;"></div>
+	<div style="background-color: #F79583;"></div>
+	<div style="background-color: #FDB8A0;"></div>
+	<div style="background-color: #FFDDBF;"></div>
+	<div style="background-color: #FFFFDD;"></div>
+</div>
+
+<div class="colorScale">
+	<div >#E4434E</div>
+	<div >#EF6E68</div>
+	<div >#F79583</div>
+	<div >#FDB8A0</div>
+	<div >#FFDDBF</div>
+	<div >#FFFFDD</div>
+</div>
+
+<div class="colorScale">
+	<div style="background-color: #E4434E;"></div>
+	<div style="background-color: #F1786F;"></div>
+	<div style="background-color: #FAA792;"></div>
+	<div style="background-color: #FFD3B7;"></div>
+	<div style="background-color: #FFFFDD;"></div>
+</div>
+
+<div class="colorScale">
+	<div >#E4434E</div>
+	<div >#F1786F</div>
+	<div >#FAA792</div>
+	<div >#FFD3B7</div>
+	<div >#FFFFDD</div>
+</div>
+
+<div class="colorScale">
+	<div style="background-color: #E4434E;"></div>
+	<div style="background-color: #F5887A;"></div>
+	<div style="background-color: #FEC5AA;"></div>
+	<div style="background-color: #FFFFDD;"></div>
+</div>
+
+<div class="colorScale">
+	<div >#E4434E</div>
+	<div >#F5887A</div>
+	<div >#FEC5AA</div>
+	<div >#FFFFDD</div>
+</div>
+
+<div class="colorScale">
+	<div style="background-color: #E4434E;"></div>
+	<div style="background-color: #FAA792;"></div>
+	<div style="background-color: #FFFFDD;"></div>
+</div>
+
+<div class="colorScale">
+	<div >#E4434E</div>
+	<div >#FAA792</div>
+	<div >#FFFFDD</div>
+</div>
+
+
+<div class="colorScale">
+	<div style="background-color: #3B66E9;"></div>
+	<div style="background-color: #707DE8;"></div>
+	<div style="background-color: #9396E7;"></div>
+	<div style="background-color: #B1AFE6;"></div>
+	<div style="background-color: #CDC9E3;"></div>
+	<div style="background-color: #E6E1EC;"></div>
+	<div style="background-color: #FFFFDD;"></div>
+</div>
+
+<div class="colorScale">
+	<div >#3B66E9</div>
+	<div >#707DE8</div>
+	<div >#9396E7</div>
+	<div >#B1AFE6</div>
+	<div >#CDC9E3</div>
+	<div >#E6E1EC</div>
+	<div >#FFFFDD</div>
+</div>
+
+<div class="colorScale">
+	<div style="background-color: #3B66E9;"></div>
+	<div style="background-color: #7782E8;"></div>
+	<div style="background-color: #A0A0E7;"></div>
+	<div style="background-color: #C2BEE4;"></div>
+	<div style="background-color: #D8D3DF;"></div>
+	<div style="background-color: #FFFFDD;"></div>
+</div>
+
+<div class="colorScale">
+	<div >#3B66E9</div>
+	<div >#7782E8</div>
+	<div >#A0A0E7</div>
+	<div >#C2BEE4</div>
+	<div >#D8D3DF</div>
+	<div >#FFFFDD</div>
+</div>
+
+<div class="colorScale">
+	<div style="background-color: #3B66E9;"></div>
+	<div style="background-color: #828AE8;"></div>
+	<div style="background-color: #B1AFE6;"></div>
+	<div style="background-color: #DAD7E2;"></div>
+	<div style="background-color: #FFFFDD;"></div>
+</div>
+
+<div class="colorScale">
+	<div >#3B66E9</div>
+	<div >#828AE8</div>
+	<div >#B1AFE6</div>
+	<div >#DAD7E2</div>
+	<div >#FFFFDD</div>
+</div>
+
+<div class="colorScale">
+	<div style="background-color: #3B66E9;"></div>
+	<div style="background-color: #9396E7;"></div>
+	<div style="background-color: #CDC9E3;"></div>
+	<div style="background-color: #FFFFDD;"></div>
+</div>
+
+<div class="colorScale">
+	<div >#3B66E9</div>
+	<div >#9396E7</div>
+	<div >#CDC9E3</div>
+	<div >#FFFFDD</div>
+</div>
+
+<div class="colorScale">
+	<div style="background-color: #3B66E9;"></div>
+	<div style="background-color: #B1AFE6;"></div>
+	<div style="background-color: #FFFFDD;"></div>
+</div>
+
+<div class="colorScale">
+	<div >#3B66E9</div>
+	<div >#B1AFE6</div>
+	<div >#FFFFDD</div>
+</div>
+
+可视化色阶生成工具：[Color Scale Helper](http://gka.github.io/palettes/#)
+
 
 
 
@@ -288,4 +537,22 @@
 	color: white;
 	background-color: #2E75B3;
 }
+
+.colorScale{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.colorScale > div {
+	flex: 1;
+	height: 40px;
+	font-size: 14px;
+	font-weight: 600;
+	color:#5C5C5C;
+	text-align: center;
+}
 </style>
+
+
+
+
