@@ -31,7 +31,7 @@
 		<div class="card homePanel">
 			<p>	border: 1px solid #429AFF;</p>
 			<p>	color: rgba(255,255,255,0.8);</p>
-			<p>	background: rgba(35,78,128,0.80);</p>
+			<p>	background: rgba(32,44,69,0.9);</p>
 		</div>
 		<div class="cardPara">
 			<p class="cardParaTitle"><strong >首页面板</strong></p>
@@ -413,7 +413,7 @@
 	<div >#FFFFDD</div>
 </div>
 
-可视化色阶生成工具：[Color Scale Helper](http://gka.github.io/palettes/#)
+可视化色阶生成工具：[Color Scale Helper](http://gka.github.io/palettes/#), [HSV Colors](https://www.vis4.net/blog/posts/avoid-equidistant-hsv-colors/)
 
 
 
